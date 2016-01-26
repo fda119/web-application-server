@@ -18,6 +18,10 @@ public class DataBase {
 		return users.get(userId);
 	}
 	
+	public static User findUserByPw(String password){
+		return users.get(password);
+	}
+	
 	public static Collection<User> findAll() {
 		return users.values();
 	}

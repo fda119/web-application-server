@@ -13,6 +13,11 @@ public class User {
 		this.email = email;
 	}
 	
+	//Only Test
+	public User() {
+		
+	}
+	
 	public String getUserId() {
 		return userId;
 	}
@@ -27,6 +32,11 @@ public class User {
 
 	public String getEmail() {
 		return email;
+	}
+	
+	//Only Test
+	public void setUserId(String userId){
+		this.userId = userId;
 	}
 
 	@Override

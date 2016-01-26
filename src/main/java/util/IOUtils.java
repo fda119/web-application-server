@@ -10,6 +10,7 @@ public class IOUtils {
 	 * @return
 	 * @throws IOException
 	 */
+	//개행 문자 단위로 끊어 읽지 못하는 경우를 위해 사용함 
 	public static String readData(BufferedReader br, int contentLength) throws IOException {
 		char[] body = new char[contentLength];
 		br.read(body, 0, contentLength);
